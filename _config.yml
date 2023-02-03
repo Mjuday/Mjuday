@@ -1,3 +1,5 @@
-theme: jekyll-theme-minimal
+remote_theme: pages/theme-merlot@v0.2.0
 title: Madelyn's homebase
-description: keep your eyes and ears open girls gays and they
+description: keep your eyes and ears open girls gays and theys
+plugins:
+  - jekyll-remote-theme

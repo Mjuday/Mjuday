@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> Forms .....</title>
+    </head>
+    <body>
+        <form id="form1">
+        <label for="name"> First Name:</label>
+        <br/>
+        <input 
+            id="firstName"
+            name="First Name"
+            placeholder="Jane Doe"
+            type="text"
+            required
+        />
+        <br/>
+
+        <label for="phone">phone number:</label>
+        <br/>
+        <input type="tel" id="'phone" placeholder="867-5036" pattern="[0-9](3)-[0-9](4)"/>
+        <br/>
+        <label> Password:</label>
+        <br/>
+        <input name="Password" type="password"/>
+
+        <!--
+        <input name="secret" type="hidden" value="some secret"> don't tell</input>
+        -->
+        <input name="sessionId" type="hidden" value="de8aebbd-7413-4913-9206-22578bcceda2"/>
+        <br/>
+        <label> Favorite Color: </label>
+        <input name="favorite color" type="color"/>
+        <br/>
+
+        <label for="birthday"> Birthday</label>
+        <br/>
+        <input type="date" id="birthday"/>
+        <br/>
+        <fieldset>
+            <legend> Status </legend>
+            <input type="radio" id="alive" name="status" value="alive"/>
+            <label for="alive">alive</label>
+            <br/>
+            <input type="radio" id="dead" name="status" value="dead"/>
+            <label for="dead">dead</label>
+            <br/>
+            <input type="radio" id="undead" name="status" value="undead"/>
+            <label for="undead">undead</label>
+            <br/>
+            <input type="radio" id="undefined" name="status" value="undefined"/>
+            <label for="undefined">Undefined</label>
+            <br/>
+        </fieldset>
+        <input type="submit"/>
+        </form>
+    </body>
+</html> 

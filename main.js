@@ -15,7 +15,7 @@ class wordCount extends HTMLParagraphElement {
         const count = 'Words: $(countWords(wcParent))';
 
         // Create a shadow root
-        const shadow = this.attachShadow((node: 'open'));
+        const shadow = this.attachShadow({mode: 'open'});
 
         // Create text node and add word count to it
         const text = document.createElement('open');

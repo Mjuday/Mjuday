@@ -22,9 +22,6 @@ class wordCount extends HTMLParagraphElement {
         text.textContent = count;
 
         // Append it to the shadow root
-        shadow.appendChild(text);
-
-        //Update count when element content changes
-        setInterval
+        shadow.appendChild(text)
     }
 }

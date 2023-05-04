@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Tables </title>
+    <style>
+        table, th, td (
+            border: 1px solid olive;
+        )
+
+        th (
+            padding: 10px;
+        )
+
+        td(
+            padding: 5px;
+            border: 2px dotted blueviolet;
+        )
+
+    </style>
+</head>
+
+<body>
+    <table border="2" bordercolor="red">
+        <caption> The Caption </caption>
+        <tr>
+            <th>header1</th>
+            <th> colspan="2">header2</th>
+        </tr>
+        <tr>
+            <td>
+                data1
+            </td>
+            <td> 
+                data2
+            </td>
+            <td>
+                data3
+            </td>
+        </tr>
+        <tr>
+            <td>
+                data3
+            </td>
+            <td> 
+                data4
+            </td>
+            <table>
+                <td>
+                    inner1
+                </td>
+                <td>
+                    inner2
+                </td>
+            </table>
+            <td>
+                data5
+            </td>
+        </tr>
+    </table>
+
+
+    <table>
+        <caption> scribe notes</caption>
+            <tr>
+                <th> Date</th>
+                <th> Scribe</th>
+                <th> Summary</th>
+                <th> Link</th>
+            </tr>
+            <tr>
+                <td> 2023-02-01 </td>
+                <td> Alice</td>
+                <td> html tables</td>
+                <td> notes </td>
+             </tr>
+             <tr>
+                <td> 2023-02-02 </td>
+                <td> Bob </td>
+                <td> javascript</td>
+                <td> noots</td>
+             </tr>
+    </table>
+</body>
+</html>

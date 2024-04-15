@@ -1,6 +1,6 @@
 ### Hi, Welcome to my Github Page!
 
-I am a Student studing to become a data scientist, Check out some of the repos I have to get a look into what I am working on!
+I am a Student studying to become a data scientist, Check out some of the repos I have to get a look into what I am working on!
 
 "The things that make me different are the things that make me, me."  
 -Piglet
